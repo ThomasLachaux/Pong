@@ -49,19 +49,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Programs\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Programs\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\TGE\Documents\ClionProjects\Projet1
+CMAKE_SOURCE_DIR = D:\Projets\Jeu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\TGE\Documents\ClionProjects\Projet1\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Projets\Jeu\cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/Projet1.dir
@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = C:\Users\TGE\Documents\ClionProjects\Projet1\cmake-build-debu
 CMakeFiles/Projet1.dir/all:
 	$(MAKE) -f CMakeFiles\Projet1.dir\build.make CMakeFiles/Projet1.dir/depend
 	$(MAKE) -f CMakeFiles\Projet1.dir\build.make CMakeFiles/Projet1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\TGE\Documents\ClionProjects\Projet1\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Projet1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Projets\Jeu\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Projet1"
 .PHONY : CMakeFiles/Projet1.dir/all
 
 # Include target in all.
@@ -80,9 +80,9 @@ all: CMakeFiles/Projet1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Projet1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TGE\Documents\ClionProjects\Projet1\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projets\Jeu\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Projet1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\TGE\Documents\ClionProjects\Projet1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projets\Jeu\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Projet1.dir/rule
 
 # Convenience name for target.

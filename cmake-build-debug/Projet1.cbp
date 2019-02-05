@@ -8,84 +8,84 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug"/>
+				<Option working_dir="D:/Projets/Jeu/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Projet1">
-				<Option output="C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Projet1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug"/>
+				<Option output="D:/Projets/Jeu/cmake-build-debug/Projet1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Projets/Jeu/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/TGE/Documents/ClionProjects/Projet1/include"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++/mingw32"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../include"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include-fixed"/>
+					<Add directory="D:/Projets/Jeu/include"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Projet1"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 Projet1"/>
+					<CompileFile command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Projet1/fast">
-				<Option output="C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Projet1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug"/>
+				<Option output="D:/Projets/Jeu/cmake-build-debug/Projet1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Projets/Jeu/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/TGE/Documents/ClionProjects/Projet1/include"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++/mingw32"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../include"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include-fixed"/>
+					<Add directory="D:/Projets/Jeu/include"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Programs/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Projet1/fast"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 Projet1/fast"/>
+					<CompileFile command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug"/>
+				<Option working_dir="D:/Projets/Jeu/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug"/>
+				<Option working_dir="D:/Projets/Jeu/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/TGE/Documents/ClionProjects/Projet1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Programs/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/Projets/Jeu/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/TGE/Documents/ClionProjects/Projet1/main.cpp">
+		<Unit filename="D:/Projets/Jeu/main.cpp">
 			<Option target="Projet1"/>
 		</Unit>
-		<Unit filename="C:/Users/TGE/Documents/ClionProjects/Projet1/CMakeLists.txt">
+		<Unit filename="D:/Projets/Jeu/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
