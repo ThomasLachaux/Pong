@@ -1,5 +1,6 @@
 #include <iostream>
 #include <SDL.h>
+#include <Box2D/Box2D.h>
 
 #define SCREEN_WIDTH 640
 #define SCREEN_HEIGHT 480
