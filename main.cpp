@@ -1,6 +1,5 @@
 #include <iostream>
 #include <SDL.h>
-#include <Box2D/Box2D.h>
 
 #define SCREEN_WIDTH 640
 #define SCREEN_HEIGHT 480
@@ -10,7 +9,7 @@
 #define BAR_SPEED 5
 
 #define BALL_SIZE 20
-#define BALL_SPEED 4
+#define BALL_SPEED 6
 
 using namespace std;
 
@@ -26,6 +25,7 @@ void reverse(int *num) {
     else
         *num = 1;
 }
+
 
 int main(int argc, char *args[]) {
 
@@ -74,7 +74,6 @@ int main(int argc, char *args[]) {
     Uint32 white = SDL_MapRGB(player->format, 255, 255, 255);
 
 
-
     while(!quit) {
 
         // Events
@@ -102,10 +101,9 @@ int main(int argc, char *args[]) {
 
         // Enemy calculations
 
-        if(ballPos.x > SCREEN_WIDTH / 3) {
-            enemyNormalSpeed = enemyPos.y < ballPos.y ? 1 : -1;
-            enemyPos.y += enemyNormalSpeed * BAR_SPEED;
-        }
+
+        enemyNormalSpeed = enemyPos.y < ballPos.y ? 1 : -1;
+        enemyPos.y += enemyNormalSpeed * BAR_SPEED;
 
         if(enemyPos.y < 0) {
             enemyPos.y = 0;
@@ -136,11 +134,11 @@ int main(int argc, char *args[]) {
 
 
         // Collision
-        if(ballPos.x <= playerPos.x + BAR_WIDTH && ballPos.y >= playerPos.y && ballPos.y <= playerPos.y + BAR_HEIGHT)
+        if(ballPos.x <= playerPos.x + BAR_WIDTH && ballPos.y + BALL_SIZE >= playerPos.y && ballPos.y <= playerPos.y + BAR_HEIGHT)
             reverse(&ballNormalSpeed.x);
 
 
-        else if(ballPos.x + BALL_SIZE >= enemyPos.x && ballPos.y >= enemyPos.y && ballPos.y <= enemyPos.y + BAR_HEIGHT)
+        else if(ballPos.x + BALL_SIZE >= enemyPos.x && ballPos.y + BALL_SIZE >= enemyPos.y && ballPos.y <= enemyPos.y + BAR_HEIGHT)
             reverse(&ballNormalSpeed.x);
 
 
